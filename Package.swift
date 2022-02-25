@@ -16,7 +16,7 @@ let package = Package(
         .library(
             name: "GoogleCastSDK-ios-no-bluetooth",
             targets: ["GoogleCastSDK-ios-no-bluetooth"]
-        ),
+        )
     ],
     targets: [
         .binaryTarget(

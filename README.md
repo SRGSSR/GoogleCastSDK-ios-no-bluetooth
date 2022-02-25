@@ -9,7 +9,7 @@ Use [Swift Package Manager](https://swift.org/package-manager) directly [within 
 
 ## Generation
 
-1. Download the binary from the [GoogleCastSDK manual setup](https://developers.google.com/cast/docs/ios_sender#manual_setup), `Dynamic without  Guest Mode`version.
+1. Download the binary from the [GoogleCastSDK manual setup](https://developers.google.com/cast/docs/ios_sender#manual_setup), `Dynamic without  Guest Mode` version.
 2. Unzip it and rename to `GoogleCastSDK-ios-no-bluetooth.xcframework`.
 3. Zip it: `zip -r GoogleCastSDK-ios-no-bluetooth.xcframework.zip GoogleCastSDK-ios-no-bluetooth.xcframework -x "*.DS_Store" -x "__MACOSX"`
 4. Move the zip file to this repository folder.

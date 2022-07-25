@@ -1,7 +1,7 @@
 GoogleCastSDK-ios-no-bluetooth XCFramework
-==================
+==========================================
 
-XCFramework binaries are currently not provided by Google. Until they are this repository provides XCFrameworks for versions we use at SRG SSR, with a Swift Package Manager manifest for easy integration in projects. Binaries are currently packaged for iOS, and downloaded from Google links.
+Until Google provides SPM support for its Google Cast SDK this repository delivers official XCFrameworks as Swift packages for easy integration into projects.
 
 ## Integration
 
@@ -9,8 +9,8 @@ Use [Swift Package Manager](https://swift.org/package-manager) directly [within 
 
 ## Generation
 
-1. Download the binary from the [GoogleCastSDK manual setup](https://developers.google.com/cast/docs/ios_sender#manual_setup), `Dynamic without  Guest Mode` version.
-2. Unzip it and rename to `GoogleCastSDK-ios-no-bluetooth.xcframework`.
+1. Download the _dynamic without Guest Mode_ binary from the [GoogleCastSDK manual setup](https://developers.google.com/cast/docs/ios_sender#manual_setup).
+2. Unzip it and rename it to `GoogleCastSDK-ios-no-bluetooth.xcframework`.
 3. Zip it: `zip -r GoogleCastSDK-ios-no-bluetooth.xcframework.zip GoogleCastSDK-ios-no-bluetooth.xcframework -x "*.DS_Store" -x "__MACOSX"`
 4. Move the zip file to this repository folder.
 
